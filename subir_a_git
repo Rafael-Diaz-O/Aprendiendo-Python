@@ -1,0 +1,5 @@
+Comandos para subir al repo 
+
+1. git add .
+2. git commit -m "texto que quieras escribir"
+3. git push 
