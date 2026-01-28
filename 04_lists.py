@@ -76,5 +76,28 @@ print(my_list)
 my_list.clear # borrar una lista 
 print(my_list)
 
+my_other_list.insert(1,"Azul")
+print(my_other_list)
+
+my_other_list[1] = "Rojo" #otra forma de cambiar o añadir informacion a la lista 
+print(my_other_list)
+
+my_copy_list = my_list.copy() #crea una copia de list 
+print(my_list)
+my_list.clear()
+
+print(my_list)
+print(my_copy_list)
+
+my_copy_list.reverse() # invierte los valores de la lista 
+print(my_copy_list)
+
+my_copy_list.extend([23,2,60]) # me perite agregar varios elementos a la vez a la lista usando extends y []
+print(my_copy_list)
+
+my_copy_list.sort() # ordena la lista segun los parametros o como le digamos por defecto ordena de menor a mayor 
+print(my_copy_list)
+
+print(my_copy_list [1:3] ) #elejimos los datos que va a mostrar que estan en esa posicion de la lista 
 
 
