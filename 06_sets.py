@@ -27,3 +27,6 @@ print("Dereck" in my_other_set)
 my_other_set.clear() #borra todos los elementos dentro del clear 
 print(len(my_other_set) )
 
+del my_other_set
+print(my_other_set)
+
